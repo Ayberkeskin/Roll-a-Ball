@@ -14,6 +14,7 @@ namespace RunTime.Managers
         #region Serialized Variables
 
         [SerializeField] private PlayerMovmentController _movmentController;
+        [SerializeField] private PlayerPhysicsController _physicsController;
 
         #endregion
 
@@ -60,6 +61,7 @@ namespace RunTime.Managers
         private void SendDataControllers()
         {
             _movmentController.SetMovmentData(_data.MovmentData);
+            _physicsController.SetScoreData(_data.ScoreData);
         }
     }
     

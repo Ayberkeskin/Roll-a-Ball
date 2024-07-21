@@ -194,6 +194,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _movmentController: {fileID: 920808786235784669}
+  _physicsController: {fileID: 407553938672087326}
 --- !u!1 &1214505112954129082
 GameObject:
   m_ObjectHideFlags: 0
