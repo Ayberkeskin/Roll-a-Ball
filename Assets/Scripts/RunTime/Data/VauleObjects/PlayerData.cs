@@ -13,4 +13,5 @@ namespace RunTime.Data.VauleObjects
     {
         public float Speed;
     }
+    
 }
