@@ -14,6 +14,7 @@ namespace RunTime.Controllers
         #region Serialized Variables
 
         [SerializeField] private PlayerManager _manager;
+        
         #endregion
 
         #region Rrivate Variables
@@ -56,9 +57,7 @@ namespace RunTime.Controllers
         private void MovePlayer()
         {
             _rigidbody.velocity += new Vector3(_inputValues.x,0, _inputValues.y) * (_data.Speed * Time.fixedDeltaTime);
-            Debug.LogWarning(_rigidbody.velocity);
+      
         }
-
-     
     }
 }
