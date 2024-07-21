@@ -1,4 +1,3 @@
-using System;
 using RunTime.Controllers;
 using RunTime.Data.UnityObjects;
 using RunTime.Data.VauleObjects;
@@ -14,6 +13,7 @@ namespace RunTime.Managers
         #region Serialized Variables
 
         [SerializeField] private PlayerMovmentController _movmentController;
+        
         [SerializeField] private PlayerPhysicsController _physicsController;
 
         #endregion
