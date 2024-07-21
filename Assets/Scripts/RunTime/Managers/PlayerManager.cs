@@ -31,8 +31,6 @@ namespace RunTime.Managers
             GetPlayerData();
             SendDataControllers();
         }
-        
-
         private void GetPlayerData()
         {
            _data= Resources.Load<CD_Player>("Data/CD_Player").Data;
